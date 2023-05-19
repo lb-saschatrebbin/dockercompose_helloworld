@@ -1,0 +1,8 @@
+---
+services:
+    hello:
+        container_name: helloworld-http
+        restart: always
+        image: strm/helloworld-http:latest
+        ports:
+          - 45000:80
